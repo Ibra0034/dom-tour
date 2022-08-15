@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Tour</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Welcome to DOM Manipulation
+        </h1>
+    </header>
+    <main id="main-container">
+        <section>
+            <h1>
+                My Awesome DOM list
+            </h1>
+            <ul>
+                <li>Amar Sonar Bangla</li>
+                <li>Ami Tomay Valobasi</li>
+                <li>Independence Day 1971</li>
+            </ul>
+        </section>
+        <section class="fruits-container">
+            <h1>
+                My Favourite Tour Country
+            </h1>
+            <ul>
+                <li> United States of America</li>
+                <li>United Arab Amirates</li>
+                <li>Kingdom Of Saudi Arabia</li>
+            </ul>
+        </section>
+        <section id="places-container">
+            <h1>
+                My Awesome Place list
+            </h1>
+            <ul id="places-list">
+                <li>Dhaka</li>
+                <li>Chittagong</li>
+                <li>Khulna</li>
+                <li>Barisal</li>
+                <li>Cumilla</li>
+                <li>Noakhali</li>
+                <li>Rangpur</li>
+            </ul>
+        </section>
+    </main>
+    <script src="js/dom.js"></script>
+    <script src="js/append.js"></script>
+    <script src="js/styleinjs.js"></script>
+
+    <script>
+        liCollection = document.getElementsByTagName('li');
+        // console.log(liCollection);
+        for (const li of liCollection) {
+            // console.log(li.innerT - +ext);
+        }
+    </script>
+
+</body>
+
+</html>
